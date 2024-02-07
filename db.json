@@ -1,0 +1,95 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "On Kişiydiler",
+      "author": "Agatha Cristhe",
+      "image": "https://picsum.photos/800",
+      "year": "5454",
+      "page": "241",
+      "description": "loremloremlorem"
+    },
+    {
+      "id": 2,
+      "title": "Gizemli Ada",
+      "author": "Arthur Conan Doyle",
+      "image": "https://picsum.photos/801",
+      "year": "1896",
+      "page": "320",
+      "description": "Sherlock Holmes'un maceralarından biri."
+    },
+    {
+      "id": 3,
+      "title": "Kırmızı Kraliçe",
+      "author": "Victoria Aveyard",
+      "image": "https://picsum.photos/802",
+      "year": "2015",
+      "page": "400",
+      "description": "Fantastik bir genç yetişkin romanı."
+    },
+
+    {
+      "id": 4,
+      "title": "Gizemli Ada",
+      "author": "Arthur Conan Doyle",
+      "image": "https://picsum.photos/803",
+      "year": "1896",
+      "page": "320",
+      "description": "Sherlock Holmes'un maceralarından biri."
+    },
+    {
+      "id": 5,
+      "title": "Kırmızı Kraliçe",
+      "author": "Victoria Aveyard",
+      "image": "https://picsum.photos/804",
+      "year": "2015",
+      "page": "400",
+      "description": "Fantastik bir genç yetişkin romanı."
+    },
+    {
+      "id": 6,
+      "title": "Kötülük Kraliçesi",
+      "author": "Holly Black",
+      "image": "https://picsum.photos/805",
+      "year": "2018",
+      "page": "370",
+      "description": "Karanlık bir fantezi romanı."
+    },
+    {
+      "id": 7,
+      "title": "Sissoylu: Son İmparatorluk",
+      "author": "Brandon Sanderson",
+      "image": "https://picsum.photos/806",
+      "year": "2006",
+      "page": "672",
+      "description": "Epik bir fantezi serisinin ilk kitabı."
+    },
+    {
+      "id": 8,
+      "title": "Harry Potter ve Felsefe Taşı",
+      "author": "J.K. Rowling",
+      "image": "https://picsum.photos/807",
+      "year": "1997",
+      "page": "309",
+      "description": "Harry Potter serisinin ilk kitabı."
+    },
+    {
+      "id": 9,
+      "title": "Yüzüklerin Efendisi: Yüzük Kardeşliği",
+      "author": "J.R.R. Tolkien",
+      "image": "https://picsum.photos/808",
+      "year": "1954",
+      "page": "423",
+      "description": "Orta Dünya'nın destansı serisinin ilk kitabı."
+    },
+    {
+      "id": 10,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "image": "https://picsum.photos/809",
+      "year": "1965",
+      "page": "412",
+      "description": "Bilim kurgu edebiyatının klasiklerinden biri."
+    }
+  ]
+}
