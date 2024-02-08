@@ -5,7 +5,7 @@ const NotFoundPage = () => {
       <p className="text-center fs-4">Üzgünüz, aradığınız sayfayı bulamadık.</p>
 
       <img
-        className="img-fluid position my-3 mb-5"
+        className="img-fluid d-flex m-auto my-3 mb-5"
         src="https://i.gifer.com/7VE.gif"
         alt=""
       />

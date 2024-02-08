@@ -10,8 +10,7 @@ const Card = ({ book }) => {
       </div>
 
       <Link to={"/ürün"} className="btn btn-primary w-100">
-        {" "}
-        Detay Gör{" "}
+        Detay Gör
       </Link>
     </div>
   );
