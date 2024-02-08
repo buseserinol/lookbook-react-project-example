@@ -57,7 +57,7 @@ const BookDetail = ({ title, value }) => {
   return (
     <p className="fs-5">
       <span className="badge bg-secondary me-3">{title}</span>
-      <spa>{value}</spa
+      <span>{value}</span>
     </p>
   );
 };
