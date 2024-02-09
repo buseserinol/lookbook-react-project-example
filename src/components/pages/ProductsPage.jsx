@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Card from "../Card";
+import FilterArea from "../FilterArea";
 
 const ProductsPage = () => {
   const [books, setBooks] = useState(null);
@@ -15,6 +16,9 @@ const ProductsPage = () => {
   return (
     <div className="mx-5  mt-4 h-100">
       <h3>{books?.length} kitap bulundu.</h3>
+
+      <FilterArea />
+
       <div className="card-container">
         {books?.map((book) => (
           <div>
