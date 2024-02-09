@@ -5,7 +5,7 @@ function FilterArea() {
 
   const handleChange = (e) => {
     //eklenecek parametreyi belirle
-    searchParams.set("sort", e.target.value);
+    searchParams.set("sırala", e.target.value);
     setSearchParams(searchParams);
   };
 

@@ -30,8 +30,8 @@
 
     {
       "id": 4,
-      "title": "Gizemli Ada",
-      "author": "Arthur Conan Doyle",
+      "title": "Otomatik Portakal",
+      "author": "Anthony Burgess",
       "image": "https://picsum.photos/803",
       "year": "1896",
       "page": "320",
@@ -39,8 +39,8 @@
     },
     {
       "id": 5,
-      "title": "Kırmızı Kraliçe",
-      "author": "Victoria Aveyard",
+      "title": "Doğu Ekspresinde Cinayet",
+      "author": "Agatha Cristhe",
       "image": "https://picsum.photos/804",
       "year": "2015",
       "page": "400",
@@ -90,6 +90,24 @@
       "year": "1965",
       "page": "412",
       "description": "Bilim kurgu edebiyatının klasiklerinden biri."
+    },
+    {
+      "id": 11,
+      "title": "Ejderhanın Gözyaşları",
+      "author": "Christopher Paolini",
+      "image": "https://picsum.photos/806",
+      "year": "2005",
+      "page": "544",
+      "description": "Epik bir fantastik roman serisinin ilk kitabı."
+    },
+    {
+      "id": 12,
+      "title": "Uykusuzlar Şehri",
+      "author": "Cassandra Clare",
+      "image": "https://picsum.photos/807",
+      "year": "2007",
+      "page": "503",
+      "description": "Doğaüstü varlıkların olduğu bir gençlik fantastik romanı."
     }
   ]
 }
