@@ -1,5 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+
 const NotFoundPage = () => {
+  const { state } = useLocation();
+
   return (
     <div>
       <p className="text-center fs-4">Üzgünüz, aradığınız sayfayı bulamadık.</p>
@@ -18,6 +21,12 @@ const NotFoundPage = () => {
           Anasayfa
         </Link>
       </div>
+
+      {state && (
+        <p className="fs-3 my-3 text-center">
+          Hata Kodunuz: <span className="badge bg-danger mx-2">{state}</span>
+        </p>
+      )}
     </div>
   );
 };

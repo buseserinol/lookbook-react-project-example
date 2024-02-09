@@ -9,7 +9,7 @@ const Card = ({ book }) => {
         <h5>{book.author}</h5>
       </div>
 
-      <Link to={"/ürün"} className="btn btn-primary w-100">
+      <Link to={`/ürün/${book.id}`} className="btn btn-primary w-100">
         Detay Gör
       </Link>
     </div>

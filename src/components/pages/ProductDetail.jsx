@@ -1,9 +1,11 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import Loader from "./Loader";
 
 const ProductDetail = () => {
+  //useNavigate kurulumu
+  const navigate = useNavigate();
   // urldeki parametreyi al
   const { id } = useParams();
   const [book, setBook] = useState(null);
@@ -12,7 +14,10 @@ const ProductDetail = () => {
     axios
       .get(`http://localhost:3090/books/${id}`)
       .then((res) => setBook(res.data))
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        //ürünün bilgisi API'den gelmediyse 404 sayfasına yönlendir
+        navigate("/undefined", { state: err.response.status });
+      });
 
     console.log(book);
   }, []);
@@ -37,10 +42,9 @@ const ProductDetail = () => {
 
             <div className="my-4">
               <BookDetail title={"Yazar"} value={book.author} />
-              <BookDetail title={"Yazar"} value={book.author} />
-              <BookDetail title={"Yazar"} value={book.author} />
-              <BookDetail title={"Yazar"} value={book.author} />
-              <BookDetail title={"Yazar"} value={book.author} />
+              <BookDetail title={"Açıklama"} value={book.description} />
+              <BookDetail title={"Yıl"} value={book.year} />
+              <BookDetail title={"Sayfa sayısı"} value={book.page} />
             </div>
           </div>
         </div>
