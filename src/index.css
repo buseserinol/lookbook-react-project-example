@@ -22,6 +22,7 @@ footer {
 .active {
   text-shadow: 0 0 15px #535bf2;
   font-weight: bold;
+  text-decoration: no;
 }
 
 .color-purple {
@@ -38,6 +39,10 @@ footer {
 
 .card {
   max-width: 260px;
+}
+
+.decoration {
+  text-decoration: none;
 }
 
 @media (max-width: 800px) {
